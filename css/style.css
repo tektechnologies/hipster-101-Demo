@@ -1,0 +1,75 @@
+body {
+	background-image: linear-gradient(180deg, #c5cac5, rgb(198, 228, 144));
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+   clear:both;
+   }
+header h1 {
+	color: #666;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	border-left: 2px solid rgb(67, 33, 219);
+}
+
+nav a {
+	color: violet;
+	text-decoration: none;
+	padding: 25px;
+  margin
+}
+
+img {
+	float: left;
+	margin-right: 50px;
+}
+
+a:link {
+	color: red;
+}
+
+
+/* visited link */
+
+a:visited {
+	color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+	color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+	color: blue;
+}
+
+footer {
+	margin-top: 40px;
+	background-color: beige;
+}
+
+.pageLayout {
+	background-color: whitesmoke;
+	min-height: 600px;
+	width: 80%;
+	padding: 20px;
+	border-width: 10px;
+	border-style: inset;
+	border-color: #333;
+	margin: 30px auto;
+}
